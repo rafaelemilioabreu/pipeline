@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Mi primer Pipeline!\n'
+  const msg = 'Mi segundo Pipeline!\n'
   res.end(msg);
 });
 
